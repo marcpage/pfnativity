@@ -1,14 +1,43 @@
+/*
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+
+Courier New (monospace)
+
+Brush Script MT (cursive)
+*/
+
 .global {
-background-color: rgb(97, 142, 174);
+    background-color: rgb(97, 142, 174);
+    color: rgb(0, 38, 87);
+    width:100%;
+    justify-content: center;
 }
 
 .header {
     background-color: rgb(51, 80, 117);
 }
 
+.footer {
+    background-color: rgb(51, 80, 117);
+    color:rgb(222, 222, 222);;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding:20px;
+}
+
 .headertext {
-    color:white;
-    font-size:xx-large;
+    color: rgb(222, 222, 222);;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+    font-size: xx-large;
+
     display:inline-block;
     position: relative;
     top: 50%;
@@ -22,6 +51,7 @@ background-color: rgb(97, 142, 174);
 }
 
 .facebook {
+    font-size:large;
 }
 
 .menu {
@@ -42,3 +72,82 @@ background-color: rgb(97, 142, 174);
 .menuitem:hover {
     color:burlywood;
 }
+
+.tabtitle {
+    color:rgb(222, 222, 222);;
+    font-size:xx-large;
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+
+    display:inline-block;
+    width:100%;
+    text-align: center;
+}
+
+.tabsubtitle {
+    color:rgb(222, 222, 222);;
+    font-size:x-large;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    display:inline-block;
+    width:100%;
+    text-align: center;
+}
+
+.facebookfooter {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.menuitemview {
+    width: 80%;
+}
+  
+.tabtext {
+    line-height: 1.8;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+.organizer {
+    width:100%;
+    color: rgb(140, 151, 154);
+}
+
+.eventlocation {
+    width:100%;
+    font-size: x-large;
+}
+
+.eventdates {
+    width:100%;
+    font-size: x-large;
+}
+
+.feedback {
+    width:100%;
+}
+
+a:link {
+    color: rgb(222, 222, 222);;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: rgb(200,200,200);
+  }
+  
+  a:visited {
+    color: rgb(222, 222, 222);;
+    background-color: transparent;
+    text-decoration: underline;
+    text-decoration-color: rgb(200,200,200);
+  }
+  
+  a:hover {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: gray;
+    background-color: transparent;
+    text-decoration: underline;
+  }
