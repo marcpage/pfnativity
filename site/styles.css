@@ -31,8 +31,11 @@ https://fonts.google.com
     background-color: rgb(51, 80, 117);
     color:rgb(222, 222, 222);;
     font-family: Helvetica, Arial, Verdana, sans-serif;
+
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding:20px;
 }
 
@@ -110,27 +113,40 @@ https://fonts.google.com
 }
   
 .tabtext {
+    width:80%;
     line-height: 1.8;
     font-family: Helvetica, Arial, Verdana, sans-serif;
+    padding-left:20%;
+    padding-right:20%;
 }
 
 .organizer {
     width:100%;
     color: rgb(140, 151, 154);
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
 }
 
 .eventlocation {
     width:100%;
     font-size: x-large;
+    text-align: center;
+    margin: 10px;
 }
 
 .eventdates {
     width:100%;
     font-size: x-large;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 30px;
 }
 
 .feedback {
     width:100%;
+    text-align: center;
+    margin: 10px;
 }
 
 a:link {
